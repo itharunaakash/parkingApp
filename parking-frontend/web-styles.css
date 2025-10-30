@@ -1,0 +1,22 @@
+/* Global web scrolling fix */
+html, body {
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+#root, #expo-root {
+  height: 100vh;
+  overflow: auto;
+}
+
+/* Fix for React Native Web ScrollView */
+[data-focusable="true"] {
+  overflow: auto !important;
+  max-height: 100vh;
+}
+
+/* Ensure all containers can scroll */
+.css-view-1dbjc4n {
+  overflow: auto !important;
+}

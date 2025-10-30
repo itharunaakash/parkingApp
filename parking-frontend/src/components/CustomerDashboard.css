@@ -1,0 +1,154 @@
+.customer-dashboard {
+  padding: 20px;
+  background: #f5f5f5;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+.header {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.header h1 {
+  margin: 0;
+  color: #333;
+}
+.header p {
+  margin: 5px 0 0 0;
+  color: #666;
+}
+.pending-payments {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-left: 4px solid #ffc107;
+}
+.pending-payments h2 {
+  margin: 0 0 20px 0;
+  color: #333;
+}
+.pending-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #fff3cd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ffeaa7;
+}
+.booking-info h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+.booking-info p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 14px;
+}
+.booking-actions {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.pay-now-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.pay-now-btn:hover {
+  background: #0056b3;
+}
+.booking-history {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.booking-history h2 {
+  margin: 0 0 20px 0;
+  color: #333;
+}
+.no-bookings {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+.bookings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+.booking-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #e9ecef;
+}
+.booking-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.booking-header h3 {
+  margin: 0;
+  color: #333;
+}
+.status {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.status.confirmed {
+  background: #d4edda;
+  color: #155724;
+}
+.status.active {
+  background: #cce5ff;
+  color: #004085;
+}
+.status.completed {
+  background: #d1ecf1;
+  color: #0c5460;
+}
+.status.cancelled {
+  background: #f8d7da;
+  color: #721c24;
+}
+.booking-details p {
+  margin: 8px 0;
+  color: #666;
+  font-size: 14px;
+}
+.cancel-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.cancel-btn:hover {
+  background: #c82333;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 18px;
+  color: #666;
+}

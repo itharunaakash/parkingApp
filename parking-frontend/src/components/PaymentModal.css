@@ -1,0 +1,123 @@
+.payment-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.payment-content {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+.payment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.payment-header h2 {
+  margin: 0;
+  color: #333;
+}
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+}
+.payment-details {
+  margin-bottom: 30px;
+}
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.detail-row.total {
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 2px solid #007bff;
+  color: #007bff;
+}
+.payment-methods h3 {
+  margin: 0 0 15px 0;
+  color: #333;
+}
+.dummy-payment {
+  text-align: center;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 2px dashed #007bff;
+}
+.dummy-payment p {
+  margin: 0 0 15px 0;
+  color: #007bff;
+  font-weight: 500;
+}
+.pay-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+.pay-btn:hover {
+  background: #218838;
+}
+.pay-btn:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
+}
+.test-btn {
+  background: #9c27b0;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+.test-btn:hover {
+  background: #7b1fa2;
+  transform: translateY(-2px);
+}
+.test-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+}
+.success-animation {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.payment-content h2 {
+  text-align: center;
+  color: #28a745;
+  margin-bottom: 15px;
+}
+.payment-content p {
+  text-align: center;
+  margin: 10px 0;
+  color: #666;
+}
